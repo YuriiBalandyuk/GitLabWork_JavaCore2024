@@ -1,22 +1,17 @@
 package LabWork;
 import java.util.Scanner;
-/*
-*  Проаналізувати стрічку-речення, яка введена з клавіатури і здійснити перестановку в оберненому порядку слів.
-* */
-
-
 /**
- * The main class
+ * The main class.
  */
 public class Main {
     /**
-     * This is the default constructor
+     * This is the default constructor.
      */
     public Main(){
     }
     /**
-     * The main method for running the application
-     * @param args Tape array
+     * The main method for running the application.
+     * @param args Tape array.
      */
     public static void main(String[] args) {
         String sentence = writeText();
@@ -26,8 +21,8 @@ public class Main {
     }
 
     /**
-     * The method performs writes a sentence
-     * @return Returns the sentence
+     * The method performs writes a sentence.
+     * @return Returns the sentence.
      */
     public static String writeText(){
         Scanner in = new Scanner(System.in);
@@ -45,8 +40,8 @@ public class Main {
     }
 
     /**
-     * The method separates the sentence and outputs it in the reverse order
-     * @param sentence Retrieves the previously entered sentence
+     * The method separates the sentence and outputs it in the reverse order.
+     * @param sentence Retrieves the previously entered sentence.
      */
     public static void reversText(String sentence){
 
@@ -58,8 +53,8 @@ public class Main {
     }
 
     /**
-     * The method converts the tape to an array, reads it in the reverse process and writes it to a new array
-     * @param sentence Retrieves the previously entered sentence
+     * The method converts the tape to an array, reads it in the reverse process and writes it to a new array.
+     * @param sentence Retrieves the previously entered sentence.
      */
     public static void reverseLetters(String sentence){
         char[] charArray = sentence.toCharArray();
